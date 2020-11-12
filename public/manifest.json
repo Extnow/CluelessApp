@@ -15,7 +15,7 @@
       "type": "image/jpg"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://extnow.github.io/CluelessApp/",
   "background_color": "#222",
   "theme_color": "#222",
   "display": "standalone"
