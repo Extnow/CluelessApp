@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CluelessApp/static/css/main.385077ec.chunk.css",
+    "main.js": "/CluelessApp/static/js/main.e1651368.chunk.js",
+    "main.js.map": "/CluelessApp/static/js/main.e1651368.chunk.js.map",
+    "runtime-main.js": "/CluelessApp/static/js/runtime-main.372ea520.js",
+    "runtime-main.js.map": "/CluelessApp/static/js/runtime-main.372ea520.js.map",
+    "static/js/2.c41178a1.chunk.js": "/CluelessApp/static/js/2.c41178a1.chunk.js",
+    "static/js/2.c41178a1.chunk.js.map": "/CluelessApp/static/js/2.c41178a1.chunk.js.map",
+    "index.html": "/CluelessApp/index.html",
+    "precache-manifest.7a32852f7cf4ed33d0b52ffcbe15d666.js": "/CluelessApp/precache-manifest.7a32852f7cf4ed33d0b52ffcbe15d666.js",
+    "service-worker.js": "/CluelessApp/service-worker.js",
+    "static/css/main.385077ec.chunk.css.map": "/CluelessApp/static/css/main.385077ec.chunk.css.map",
+    "static/js/2.c41178a1.chunk.js.LICENSE.txt": "/CluelessApp/static/js/2.c41178a1.chunk.js.LICENSE.txt",
+    "static/media/finger-print.png": "/CluelessApp/static/media/finger-print.c43fa2c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.372ea520.js",
+    "static/js/2.c41178a1.chunk.js",
+    "static/css/main.385077ec.chunk.css",
+    "static/js/main.e1651368.chunk.js"
+  ]
+}
