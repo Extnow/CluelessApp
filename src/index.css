@@ -4,28 +4,26 @@
 
 @tailwind utilities;
 
-
 body {
-    @apply bg-green-200;
+  @apply bg-green-200;
 }
 
-
 @responsive {
-    .mobile-name-labels {
-        top: -1.0rem;
-        right: 0;
-    }
+  .mobile-name-labels {
+    top: -1rem;
+    right: 0;
+  }
 
-    .name-labels {
-        top: -1.9rem;
-        right: 0;
-    }
+  .name-labels {
+    top: -1.9rem;
+    right: 0;
+  }
 
-    .mobile-name-labels div {
-        font-size: 7px;
-    }
+  .mobile-name-labels div {
+    font-size: 8px;
+  }
 
-    .name-labels div {
-        font-size: 13px;
-    }
+  .name-labels div {
+    font-size: 13px;
+  }
 }

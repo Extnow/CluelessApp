@@ -46,7 +46,7 @@ function App() {
     JSON.parse(localStorage.getItem('isPlaying')) || false
   );
   const [playerNames, setPlayerNames] = useState(
-    JSON.parse(localStorage.getItem('playerNames')) || ['You', 'P2', 'P3']
+    JSON.parse(localStorage.getItem('playerNames')) || ['Я', 'P2', 'P3']
   );
   const [selectedTile, setSelectedTile] = useState(null);
   const [suspectGrid, setSuspectGrid] = useState(
