@@ -2,7 +2,7 @@
   "short_name": "Cluedo notepad",
   "name": "Cluedo notepad",
   "lang": "ru",
-  "description": "Приложение для отслеживания подозреваемых, орудий убийства и комнат",
+  "description": "Приложение для отслеживания подозреваемых, орудий убийства и комнат в игре Cluedo",
   "icons": [
     {
       "src": "icon-192x192.jpg",
