@@ -22387,7 +22387,7 @@ body {
 }
 
 .mobile-name-labels {
-  top: -1.0rem;
+  top: -1rem;
   right: 0;
 }
 
@@ -22397,7 +22397,7 @@ body {
 }
 
 .mobile-name-labels div {
-  font-size: 7px;
+  font-size: 8px;
 }
 
 .name-labels div {
@@ -44130,7 +44130,7 @@ body {
   }
 
   .sm\:mobile-name-labels {
-    top: -1.0rem;
+    top: -1rem;
     right: 0;
   }
 
@@ -44140,7 +44140,7 @@ body {
   }
 
   .sm\:mobile-name-labels div {
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .sm\:name-labels div {
@@ -65874,7 +65874,7 @@ body {
   }
 
   .md\:mobile-name-labels {
-    top: -1.0rem;
+    top: -1rem;
     right: 0;
   }
 
@@ -65884,7 +65884,7 @@ body {
   }
 
   .md\:mobile-name-labels div {
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .md\:name-labels div {
@@ -87618,7 +87618,7 @@ body {
   }
 
   .lg\:mobile-name-labels {
-    top: -1.0rem;
+    top: -1rem;
     right: 0;
   }
 
@@ -87628,7 +87628,7 @@ body {
   }
 
   .lg\:mobile-name-labels div {
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .lg\:name-labels div {
@@ -109362,7 +109362,7 @@ body {
   }
 
   .xl\:mobile-name-labels {
-    top: -1.0rem;
+    top: -1rem;
     right: 0;
   }
 
@@ -109372,7 +109372,7 @@ body {
   }
 
   .xl\:mobile-name-labels div {
-    font-size: 7px;
+    font-size: 8px;
   }
 
   .xl\:name-labels div {

@@ -10,9 +10,14 @@
       "type": "image/jpg"
     },
     {
-      "src": "icon-512x512.jpg",
-      "sizes": "512x512",
+      "src": "icon-375x375.jpg",
+      "sizes": "375x375",
       "type": "image/jpg"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "background_color": "#222",

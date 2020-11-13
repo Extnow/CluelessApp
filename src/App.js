@@ -185,7 +185,6 @@ function App() {
         <div
           id="sheet"
           className="mt-3 border-8 border-white bg-green-200 p-4 px-6 w-full relative overflow-hidden"
-          style={{ outline: '1px solid' }}
         >
           <img
             className="z-10 absolute"
