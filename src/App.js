@@ -35,6 +35,15 @@ const roomNames = [
   'Внутренний двор'
 ];
 
+const roomNamesSeafront = [
+  'Пляж',
+  'Игровая',
+  'Прокат мотоциклов',
+  'Парк Аттракционов',
+  'Магазин',
+  'Домик на берегу'
+];
+
 const storageGrid = {
   suspects: JSON.parse(localStorage.getItem('suspectGrid')),
   weapons: JSON.parse(localStorage.getItem('weaponGrid')),
@@ -44,6 +53,9 @@ const storageGrid = {
 function App() {
   const [isPlaying, setIsPlaying] = useState(
     JSON.parse(localStorage.getItem('isPlaying')) || false
+  );
+  const [playground, setPlayground] = useState(
+    JSON.parse(localStorage.getItem('playground')) || 'house'
   );
   const [playerNames, setPlayerNames] = useState(
     JSON.parse(localStorage.getItem('playerNames')) || ['Я', 'P2', 'P3']
@@ -91,9 +103,10 @@ function App() {
     setSelectedTile(null);
   };
 
-  const handleNewGameSubmit = newListOfPlayers => {
+  const handleNewGameSubmit = (newListOfPlayers, playgroundType) => {
     if (newListOfPlayers.every(name => name.trim() !== '')) {
       setPlayerNames(newListOfPlayers);
+      setPlayground(playgroundType);
       clearBoard(newListOfPlayers);
       setIsPlaying(true);
     } else alert('Missing name(s). Please fix and submit the name(s).');
@@ -150,7 +163,8 @@ function App() {
     localStorage.setItem('roomGrid', JSON.stringify(roomGrid));
     localStorage.setItem('playerNames', JSON.stringify(playerNames));
     localStorage.setItem('isPlaying', isPlaying);
-  }, [suspectGrid, weaponGrid, roomGrid, playerNames, isPlaying]);
+    localStorage.setItem('playground', JSON.stringify(playground));
+  }, [suspectGrid, weaponGrid, roomGrid, playerNames, isPlaying, playground]);
 
   return (
     <div>
@@ -164,7 +178,7 @@ function App() {
       <div className="mx-auto max-w-screen-sm w-full px-2 relative my-2">
         <div className="flex flex-col md:flex-row gap-2">
           <button
-            className="py-1 rounded text-xl text-red-900 w-full bg-red-200 border-2 border-red-400 focus:bg-red-300 focus:outline-none"
+            className="py-1 rounded text-xl text-red-900 w-full bg-red-300 focus:bg-red-300 focus:outline-none"
             onClick={e => {
               setIsPlaying(false);
               e.target.blur();
@@ -173,7 +187,7 @@ function App() {
             New Game
           </button>
           <button
-            className="py-1 rounded text-xl text-orange-900 w-full bg-orange-200 border-2 border-orange-400 focus:bg-orange-300 focus:outline-none"
+            className="py-1 rounded text-xl text-orange-900 w-full bg-orange-300 focus:bg-orange-300 focus:outline-none"
             onClick={e => {
               if (window.confirm('Are you sure to clear the board?')) clearBoard();
               e.target.blur();
@@ -219,7 +233,7 @@ function App() {
 
           <ContentBox
             name="rooms"
-            labels={roomNames}
+            labels={playground === 'house' ? roomNames : roomNamesSeafront}
             selectedTile={selectedTile}
             setSelectedTile={setSelectedTile}
             grid={roomGrid}
