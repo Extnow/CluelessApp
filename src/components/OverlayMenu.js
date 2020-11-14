@@ -115,9 +115,9 @@ function OverlayMenu(props) {
             </div>
             <div className="text-xs my-4 text-gray-700 opacity-50">*Max Characters: 6*</div>
           </div>
-          <div className="flex flex-col md:flex-row mt-4 gap-2 justify-center">
+          <div className="flex md:flex-row mt-4 gap-2 justify-center">
             <button
-              className="bg-orange-300 text-orange-700 w-full py-1 focus:outline-none focus:bg-orange-400"
+              className="rounded bg-orange-300 text-orange-700 w-full py-1 focus:outline-none focus:bg-orange-400"
               onClick={e => {
                 setIsPlaying(true);
                 e.target.blur();
@@ -126,7 +126,7 @@ function OverlayMenu(props) {
               Cancel
             </button>
             <button
-              className="bg-green-300 text-green-700 w-full py-1 focus:outline-none focus:bg-green-400"
+              className="rounded bg-green-300 text-green-700 w-full py-1 focus:outline-none focus:bg-green-400"
               onClick={e => {
                 handleNewGameSubmit(newListOfPlayers, playground);
                 e.target.blur();

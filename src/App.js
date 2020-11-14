@@ -176,7 +176,7 @@ function App() {
         />
       )}
       <div className="mx-auto max-w-screen-sm w-full px-2 relative my-2">
-        <div className="flex flex-col md:flex-row gap-2">
+        <div className="flex md:flex-row gap-2">
           <button
             className="py-1 rounded text-xl text-red-900 w-full bg-red-300 focus:bg-red-300 focus:outline-none"
             onClick={e => {
@@ -196,10 +196,7 @@ function App() {
             Clear Grid
           </button>
         </div>
-        <div
-          id="sheet"
-          className="mt-3 border-white bg-green-200 p-2 w-full relative overflow-hidden"
-        >
+        <div id="sheet" className="border-white bg-green-200 p-2 w-full relative overflow-hidden">
           <img
             className="z-10 absolute"
             src={FingerPrintImage}
