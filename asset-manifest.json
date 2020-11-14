@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CluelessApp/static/css/main.fefa3a5a.chunk.css",
-    "main.js": "/CluelessApp/static/js/main.b90f9205.chunk.js",
-    "main.js.map": "/CluelessApp/static/js/main.b90f9205.chunk.js.map",
+    "main.js": "/CluelessApp/static/js/main.ae8b261d.chunk.js",
+    "main.js.map": "/CluelessApp/static/js/main.ae8b261d.chunk.js.map",
     "runtime-main.js": "/CluelessApp/static/js/runtime-main.5daf7904.js",
     "runtime-main.js.map": "/CluelessApp/static/js/runtime-main.5daf7904.js.map",
     "static/js/2.39d6132f.chunk.js": "/CluelessApp/static/js/2.39d6132f.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.5daf7904.js",
     "static/js/2.39d6132f.chunk.js",
     "static/css/main.fefa3a5a.chunk.css",
-    "static/js/main.b90f9205.chunk.js"
+    "static/js/main.ae8b261d.chunk.js"
   ]
 }
