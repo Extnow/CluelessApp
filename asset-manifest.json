@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CluelessApp/static/css/main.7f9b5b15.chunk.css",
-    "main.js": "/CluelessApp/static/js/main.370e8b91.chunk.js",
-    "main.js.map": "/CluelessApp/static/js/main.370e8b91.chunk.js.map",
+    "main.css": "/CluelessApp/static/css/main.fefa3a5a.chunk.css",
+    "main.js": "/CluelessApp/static/js/main.b90f9205.chunk.js",
+    "main.js.map": "/CluelessApp/static/js/main.b90f9205.chunk.js.map",
     "runtime-main.js": "/CluelessApp/static/js/runtime-main.5daf7904.js",
     "runtime-main.js.map": "/CluelessApp/static/js/runtime-main.5daf7904.js.map",
     "static/js/2.39d6132f.chunk.js": "/CluelessApp/static/js/2.39d6132f.chunk.js",
     "static/js/2.39d6132f.chunk.js.map": "/CluelessApp/static/js/2.39d6132f.chunk.js.map",
     "index.html": "/CluelessApp/index.html",
-    "static/css/main.7f9b5b15.chunk.css.map": "/CluelessApp/static/css/main.7f9b5b15.chunk.css.map",
+    "static/css/main.fefa3a5a.chunk.css.map": "/CluelessApp/static/css/main.fefa3a5a.chunk.css.map",
     "static/js/2.39d6132f.chunk.js.LICENSE.txt": "/CluelessApp/static/js/2.39d6132f.chunk.js.LICENSE.txt",
     "static/media/finger-print.04b0b789.png": "/CluelessApp/static/media/finger-print.04b0b789.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5daf7904.js",
     "static/js/2.39d6132f.chunk.js",
-    "static/css/main.7f9b5b15.chunk.css",
-    "static/js/main.370e8b91.chunk.js"
+    "static/css/main.fefa3a5a.chunk.css",
+    "static/js/main.b90f9205.chunk.js"
   ]
 }
