@@ -198,15 +198,14 @@ function App() {
         </div>
         <div id="sheet" className="border-white bg-green-200 p-2 w-full relative overflow-hidden">
           <img
-            className="z-10 absolute"
+            className="absolute"
             src={FingerPrintImage}
             alt="finger-print"
             style={{
               transform: 'rotate(30deg)',
               opacity: '8%',
               top: '10%',
-              left: '5%',
-              visibility: 'visible'
+              left: '5%'
             }}
             width="100%"
             height="100%"
