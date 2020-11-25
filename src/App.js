@@ -196,9 +196,12 @@ function App() {
             Clear Grid
           </button>
         </div>
-        <div id="sheet" className="border-white bg-green-200 p-2 w-full relative overflow-hidden">
+        <div
+          id="sheet"
+          className="border-white bg-green-200 p-2 w-full relative z-10 overflow-hidden"
+        >
           <img
-            className="absolute"
+            className="absolute z-0"
             src={FingerPrintImage}
             alt="finger-print"
             style={{
