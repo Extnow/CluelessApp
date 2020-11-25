@@ -205,7 +205,8 @@ function App() {
               transform: 'rotate(30deg)',
               opacity: '8%',
               top: '10%',
-              left: '5%'
+              left: '5%',
+              visibility: 'visible'
             }}
             width="100%"
             height="100%"
