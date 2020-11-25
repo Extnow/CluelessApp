@@ -206,9 +206,9 @@ function App() {
             alt="finger-print"
             style={{
               transform: 'rotate(30deg)',
-              opacity: '8%',
               top: '10%',
-              left: '5%'
+              left: '5%',
+              filter: 'opacity(0.08)'
             }}
             width="100%"
             height="100%"
